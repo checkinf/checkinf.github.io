@@ -27,50 +27,85 @@
             text-align: center;
             color: #333;
         }
-        h2 {
-            color: #2d9b87;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            padding: 10px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-       thead {
-    background-color: #2d9b87;
-    color: #fff;
+      .container {
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
 }
-        tbody tr:nth-child(even) {
-    background-color: #e1f4ed;
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+h2 {
+    color: #ffcc00; /* Yellow color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+}
+
+thead {
+    background-color: #000; /* Black color */
+    color: #ffcc00; /* Yellow color */
+}
+
+tbody tr:nth-child(even) {
+    background-color: #1a1a1a; /* Darker black for even rows */
+    color: #fff; /* White text for better contrast */
 }
 
 tbody tr:hover {
-    background-color: #d2f0d2;
+    background-color: #333; /* Darker shade on hover */
 }
 
-td:nth-child(1),
-th:nth-child(1) {
-    width: 15%;
+@media screen and (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    thead {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    td {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+
+    td:nth-of-type(1):before { content: "Datum"; }
+    td:nth-of-type(2):before { content: "Tid"; }
+    td:nth-of-type(3):before { content: "Sport"; }
+    td:nth-of-type(4):before { content: "Match/Event"; }
 }
 
-td:nth-child(2),
-th:nth-child(2) {
-    width: 10%;
-}
-
-td:nth-child(3),
-th:nth-child(3) {
-    width: 15%;
-}
-
-td:nth-child(4),
-th:nth-child(4) {
-    width: 60%;
-}
     </style>
 </head>
 <body>
