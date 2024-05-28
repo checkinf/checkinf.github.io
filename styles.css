@@ -1,0 +1,44 @@
+body {
+    background-image: url('background_bar.jpeg');
+    margin: 0;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif  ;
+}
+
+
+h6 {
+    
+    font-weight:300;
+    display: block;
+    font-size: 14px;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    letter-spacing: 10px;
+    line-height: 1.5em;
+}
+
+
+.contact-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: #ffea00;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-button:hover {
+    background-color: #f9dc06;
+}
