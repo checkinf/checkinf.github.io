@@ -24,6 +24,12 @@ h6 {
     letter-spacing: 10px;
     line-height: 1.5em;
 }
+main{
+background-color: black;
+    border-radius: 13px;
+    color: white;
+    padding: 20px;
+}
 
 
 .contact-button {
