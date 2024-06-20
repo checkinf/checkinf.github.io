@@ -31,10 +31,10 @@ body, html {
 }*/
 
 .iframe-container {
-    position: absolute;
+     position: absolute;
     top: 10%;
-    left: 22%;
-    width: 351px;
+    left: 23%;
+    width: 359px;
     height: 221px;
     overflow: hidden;
     background-color: black;
