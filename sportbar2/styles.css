@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sportbar-container {
+    position: relative;
+    width: 717px;
+    height: 700px;
+    background-image: url('./background.png');
+    background-size: cover;
+    background-position: center;
+    border: 1px solid;
+}
+/*
+.table-container {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    width: 50%;
+    height: 33%;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 5px;
+    color: yellow;
+}*/
+
+.iframe-container {
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    width: 361px;
+    height: 222px;
+    overflow: hidden;
+    background-color: black;
+    border-radius: 5px;
+}
+.qr-img{
+    width: 66px;
+    position: absolute;
+    top: 91%;
+    left: 46%;
+}
