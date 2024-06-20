@@ -12,7 +12,7 @@ body, html {
     position: relative;
     width: 717px;
     height: 700px;
-    background-image: url('./background.png');
+    background-image: url('./sportbar_white6.png');
     background-size: cover;
     background-position: center;
     border: 1px solid;
@@ -33,16 +33,17 @@ body, html {
 .iframe-container {
     position: absolute;
     top: 10%;
-    left: 23%;
-    width: 361px;
-    height: 222px;
+    left: 22%;
+    width: 351px;
+    height: 221px;
     overflow: hidden;
     background-color: black;
     border-radius: 5px;
+    border-color: black;
 }
 .qr-img{
-    width: 66px;
+    width: 61px;
     position: absolute;
-    top: 91%;
-    left: 46%;
+    top: 85%;
+    left: 45%;
 }
